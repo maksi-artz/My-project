@@ -49,7 +49,7 @@
   border-radius: 0;
   border-bottom: 2px solid var(--grey-no-active);
   min-width: 240px;
-  font-family: "Nunito" sans-serif;
+  font-family: "Nunito", sans-serif;
   background-color: transparent;
 }
 
