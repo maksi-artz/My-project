@@ -12,6 +12,7 @@
         href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700;800&family=Nunito:wght@300;400;600;700;800&display=swap"
         rel="stylesheet">
     <link href="css/jquery-ui.min.css" rel="stylesheet">
+    <link href="css/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/_cars-page.css">
@@ -23,8 +24,8 @@
         <div class="container">
 
             <div class="header__navbar" id="nav">
-                <a href="/" class="logo"><img src="./img/logo.svg" alt="e-car"></a>
-                <a href="/" class="logo--mobile"><img src="./img/logo-m.svg" alt="e-car"></a>
+                <a href="index.html" class="logo"><img src="./img/logo.svg" alt="e-car"></a>
+                <a href="index.html" class="logo--mobile"><img src="./img/logo-m.svg" alt="e-car"></a>
                 <nav class="menu">
                     <ul>
                         <li><a href="about-us.html" class="menu__item">About Us</a></li>
@@ -60,8 +61,10 @@
             </div>
 
             <div class="content">
-                <p class="content__label">The future is closer than you think</p>
-                <h1>Discover the range of cars we offer</h1>
+                <p class="content__label" data-aos="fade-left" data-aos-easing="ease" data-aos-delay="100"
+                    data-aos-duration="800">The future is closer than you think</p>
+                <h1 data-aos="fade-right" data-aos-easing="ease" data-aos-delay="200" data-aos-duration="800">Discover
+                    the range of cars we offer</h1>
 
             </div>
 
@@ -96,9 +99,6 @@
                             <option>United Kingdom, London</option>
                             <option>Germany, Berlin</option>
                             <option>France, Paris</option>
-
-
-
                         </select>
 
                     </div>
@@ -106,29 +106,16 @@
                     <div class="search-form__item">
                         <label for="date">Date</label>
                         <input type="text" id="datepicker">
-
                     </div>
 
                     <a href="#" class="primary__btn">Show offers</a>
-
-
                 </fieldset>
-
-
-
-
-
-
             </form>
-
-
-
         </div>
 
-        </div>
     </header>
 
-    <section class="catalog">
+    <section class="catalog" data-aos="fade-up" data-aos-offset="400" data-aos-duration="800" data-aos-once="true">
         <div class="container ">
 
             <h2>Our Cars</h2>
@@ -140,8 +127,6 @@
                 <li class=" catalog__tab">Small to compact</li>
                 <li class=" catalog__tab">Truck & Van</li>
             </ul>
-
-
 
             <div class="catalog__content catalog__content--active">
 
@@ -739,10 +724,6 @@
                         </div>
                     </div>
                 </div>
-
-
-
-
             </div>
 
             <div class="catalog__content">
@@ -1065,10 +1046,6 @@
                         </div>
                     </div>
                 </div>
-
-
-
-
             </div>
 
             <div class="catalog__content">
@@ -1246,11 +1223,6 @@
                         </div>
                     </div>
                 </div>
-
-
-
-
-
             </div>
 
             <div class="catalog__content">
@@ -1359,16 +1331,9 @@
                         </div>
                     </div>
                 </div>
-
             </div>
-
-
-
-
-
-
         </div>
-        </div>
+
     </section>
 
 
@@ -1377,13 +1342,14 @@
 
             <div class="offers__content">
 
-                <div class="offers-item__title">
+                <div class="offers-item__title" data-aos="fade-right" data-aos-once="true" data-aos-duration="800">
                     <h2>What <br> We Offer</h2>
                     <p>Our company provides a variety of useful options to our new & regular clients.</p>
                 </div>
 
 
-                <div class="offers-item">
+                <div class="offers-item" data-aos="zoom-in" data-aos-easing="ease" data-aos-delay="300"
+                    data-aos-once="true">
                     <img class="offers-item__ico" src="./img/wheel-icon.svg" alt="icon">
                     <div class="offers-item__subtitle">Car Rentals</div>
                     <ul class="offers-item__descr">
@@ -1393,7 +1359,8 @@
                     </ul>
                 </div>
 
-                <div class="offers-item">
+                <div class="offers-item" data-aos="zoom-in" data-aos-easing="ease" data-aos-delay="400"
+                    data-aos-once="true">
                     <img class="offers-item__ico" src="./img/wallet-icon.svg" alt="icon">
                     <div class="offers-item__subtitle">Easy Payment</div>
                     <ul class="offers-item__descr">
@@ -1404,7 +1371,8 @@
                     </ul>
                 </div>
 
-                <div class="offers-item">
+                <div class="offers-item" data-aos="zoom-in" data-aos-easing="ease" data-aos-delay="500"
+                    data-aos-once="true">
                     <img class="offers-item__ico" src="./img/star-icon.svg" alt="icon">
                     <div class="offers-item__subtitle">Benefits</div>
                     <ul class="offers-item__descr">
@@ -1424,7 +1392,8 @@
         <div class="container ">
             <h2>Hear What People Says</h2>
 
-            <div class="reviews__content">
+            <div class="reviews__content" data-aos="fade-up" data-aos-easing="ease" data-aos-delay="100"
+                data-aos-once="true">
 
                 <div class="reviews-item">
                     <p class="reviews-item__text">"E-car car rentals include a Full Charge meaning you do not need to
@@ -1438,7 +1407,8 @@
 
                     </div>
                 </div>
-                <div class="reviews-item">
+                <div class="reviews-item" data-aos="fade-up" data-aos-easing="ease" data-aos-delay="100"
+                    data-aos-once="true">
                     <p class="reviews-item__text">""When you hire an electric car from E-car not only will you be
                         helping to protect the environment, but you can also reduce your travel costs! - is a TRUE"</p>
                     <div class="reviews-item__person">
@@ -1450,7 +1420,8 @@
 
                     </div>
                 </div>
-                <div class="reviews-item">
+                <div class="reviews-item" data-aos="fade-up" data-aos-easing="ease" data-aos-delay="100"
+                    data-aos-once="true">
                     <p class="reviews-item__text">"Join the Electric revolution and book an Electric car with E-car !
                         You can be confident with an Electric Car autonomy of up to 400km, plus all the tools you need
                         to charge at home or by the roadside."</p>
@@ -1519,6 +1490,12 @@
         </div>
     </footer>
 
+    <a href="#" class="to-top">
+        <img src="./img/top.svg" alt="top">
+    </a>
+
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
     <script src="./js/jquery-ui.min.js"></script>

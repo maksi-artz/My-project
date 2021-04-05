@@ -102,3 +102,27 @@ window.addEventListener("scroll", () => {
     toTop.classList.remove("up");
   }
 })
+
+
+
+
+//Events on scroll 
+
+AOS.init({
+  offset: 160,
+  duration: 700,
+  easing: "ease-in-out",
+
+});
+
+
+AOS.init({
+  disable: 'mobile'
+});
+
+AOS.init({
+  disable: function () {
+    var maxWidth = 560;
+    return window.innerWidth < maxWidth;
+  }
+});

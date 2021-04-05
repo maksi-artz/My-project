@@ -105,7 +105,7 @@ h2 {
   border-bottom: 2px solid var(--blue-hover);
 }
 
-input.primary__btn {
+button.primary__btn {
   margin: 20px 0 20px;
   margin-left: auto;
   min-width: 200px;
@@ -149,7 +149,7 @@ input.primary__btn {
     padding: 34px 30px 40px;
   }
 
-  input.primary__btn {
+  button.primary__btn {
     width: 100%;
   }
 }

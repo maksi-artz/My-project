@@ -36,8 +36,11 @@
   border: none;
 }
 
+.ui-menu .ui-menu-item-wrapper {
+  position: relative;
+  padding: 6px 8px 6px;
+}
 .ui-widget-content {
-  padding: 20px 20px 0;
   border: none;
   border-radius: 0 0px 8px 8px;
   box-shadow: 0px 16px 20px rgba(60, 76, 165, 0.12);
@@ -94,19 +97,20 @@ input:focus {
   background-color: var(--white);
   color: var(--dark-main);
   box-shadow: 0px 16px 20px rgba(60, 76, 165, 0.12);
+  box-sizing: border-box;
 }
 
 .ui-datepicker-calendar {
+  padding: 0 8px 14px;
   text-align: center;
   width: 100%;
-  padding-bottom: 20px;
 }
 
 .ui-datepicker-header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding-bottom: 14px;
+  padding: 14px 8px 14px;
   border: none;
   background-color: transparent;
 }

@@ -13,6 +13,7 @@
         href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700;800&family=Nunito:wght@300;400;600;700;800&display=swap"
         rel="stylesheet">
     <link href="css/jquery-ui.min.css" rel="stylesheet">
+    <link href="css/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/_main-page.css">
@@ -27,8 +28,8 @@
         <div class="container">
 
             <div class="header__navbar" id="nav">
-                <a href="/" class="logo"><img src="./img/logo.svg" alt="e-car"></a>
-                <a href="/" class="logo--mobile"><img src="./img/logo-m.svg" alt="e-car"></a>
+                <a href="index.html" class="logo"><img src="./img/logo.svg" alt="e-car"></a>
+                <a href="index.html" class="logo--mobile"><img src="./img/logo-m.svg" alt="e-car"></a>
                 <nav class="menu">
                     <ul>
                         <li><a href="about-us.html" class="menu__item">About Us</a></li>
@@ -62,13 +63,19 @@
             </div>
 
             <div class="content">
-                <p class="content__label">The future is closer than you think</p>
-                <h1>Get rollin’ with an eco-friendly rental car</h1>
+                <p class="content__label" data-aos="fade-left" data-aos-easing="ease" data-aos-delay="100"
+                    data-aos-duration="800">The future is
+                    closer than you think</p>
+                <h1 data-aos="fade-right" data-aos-easing="ease" data-aos-delay="200" data-aos-duration="800">Get
+                    rollin’ with an eco-friendly
+                    rental car</h1>
                 <ul class="content__text">
-                    <li>When you hire an electric car from E-car not only will you be helping to protect the
+                    <li data-aos="fade-up" data-aos-easing="ease" data-aos-delay="400">When you hire an electric car
+                        from E-car not only will you be helping to protect the
                         environment, but you can also reduce your travel costs!
                     </li>
-                    <li>Test electric vehicles risk-free and use them flexibly (short / long-term rental, subscription,
+                    <li data-aos="fade-up" data-aos-easing="ease" data-aos-delay="500">Test electric vehicles risk-free
+                        and use them flexibly (short / long-term rental, subscription,
                         purchase)
                     </li>
                 </ul>
@@ -122,15 +129,20 @@
         </div>
     </header>
 
-    <section class="catalog">
+    <section class="catalog" data-aos="fade-up" data-aos-offset="160" data-aos-duration="800">
         <div class="container ">
             <h2>Our Cars</h2>
             <ul class="catalog__tabs">
-                <li class="catalog__tab catalog__tab--active "> All</li>
-                <li class=" catalog__tab">Premium to Xtraordinary</li>
-                <li class=" catalog__tab">Intermediate to full size</li>
-                <li class=" catalog__tab">Small to compact</li>
-                <li class=" catalog__tab">Truck & Van</li>
+                <li class="catalog__tab catalog__tab--active"> All</li>
+                <li class=" catalog__tab">Premium to
+                    Xtraordinary</li>
+                <li class=" catalog__tab">Intermediate
+                    to
+                    full size</li>
+                <li class=" catalog__tab">Small to
+                    compact</li>
+                <li class=" catalog__tab">Truck & Van
+                </li>
             </ul>
 
             <div class="catalog__content catalog__content--active">
@@ -1352,13 +1364,15 @@
 
             <div class="offers__content">
 
-                <div class="offers-item__title">
+                <div class="offers-item__title" data-aos="fade-right" data-aos-offset="160" data-aos-duration="800"
+                    data-aos-once="true">
                     <h2>What <br> We Offer</h2>
                     <p>Our company provides a variety of useful options to our new & regular clients.</p>
                 </div>
 
 
-                <div class="offers-item">
+                <div class="offers-item" data-aos="zoom-in" data-aos-easing="ease" data-aos-delay="100"
+                    data-aos-once="true">
                     <img class="offers-item__ico" src="./img/wheel-icon.svg" alt="icon">
                     <div class="offers-item__subtitle">Car Rentals</div>
                     <ul class="offers-item__descr">
@@ -1368,7 +1382,8 @@
                     </ul>
                 </div>
 
-                <div class="offers-item">
+                <div class="offers-item" data-aos="zoom-in" data-aos-easing="ease-in-out" data-aos-delay="200"
+                    data-aos-once="true">
                     <img class="offers-item__ico" src="./img/wallet-icon.svg" alt="icon">
                     <div class="offers-item__subtitle">Easy Payment</div>
                     <ul class="offers-item__descr">
@@ -1379,7 +1394,8 @@
                     </ul>
                 </div>
 
-                <div class="offers-item">
+                <div class="offers-item" data-aos="zoom-in" data-aos-easing="ease-in" data-aos-delay="300"
+                    data-aos-once="true">
                     <img class="offers-item__ico" src="./img/star-icon.svg" alt="icon">
                     <div class="offers-item__subtitle">Benefits</div>
                     <ul class="offers-item__descr">
@@ -1394,36 +1410,38 @@
     </section>
 
     <section class="stats">
+
         <div class="container">
 
-            <div class="stats__content">
+            <div class="stats__content" data-aos="zoom-in" data-aos-offset="160" data-aos-duration="1000"
+                data-aos-once="true">
 
-                <div class="stats-item">
+                <div class="stats-item item">
                     <div class="stats-item__numbers">0</div>
                     <div class="stats-item__descr">CO2 Free</div>
                 </div>
 
-                <div class="stats-item">
+                <div class="stats-item item">
                     <div class="stats-item__numbers">525</div>
                     <div class="stats-item__descr">Electric Car</div>
                 </div>
 
-                <div class="stats-item">
+                <div class="stats-item item">
                     <div class="stats-item__numbers">350+</div>
                     <div class="stats-item__descr">Qualified Team</div>
                 </div>
 
-                <div class="stats-item">
+                <div class="stats-item item">
                     <div class="stats-item__numbers">7+</div>
                     <div class="stats-item__descr">Years of experience</div>
                 </div>
 
-                <div class="stats-item">
+                <div class="stats-item item">
                     <div class="stats-item__numbers">90</div>
                     <div class="stats-item__descr">Charging stations in Europe</div>
                 </div>
 
-                <div class="stats-item">
+                <div class="stats-item item">
                     <div class="stats-item__numbers">24/7</div>
                     <div class="stats-item__descr">Customer care </div>
                 </div>
@@ -1438,7 +1456,8 @@
 
             <div class="reviews__content">
 
-                <div class="reviews-item">
+                <div class="reviews-item" data-aos="fade-up" data-aos-easing="ease" data-aos-delay="100"
+                    data-aos-once="true">
                     <p class="reviews-item__text">"E-car car rentals include a Full Charge meaning you do not need to
                         recharge before returning it at the end of your rental, saving you time and money."</p>
                     <div class="reviews-item__person">
@@ -1450,7 +1469,8 @@
 
                     </div>
                 </div>
-                <div class="reviews-item">
+                <div class="reviews-item" data-aos="fade-up" data-aos-easing="ease" data-aos-delay="200"
+                    data-aos-once="true">
                     <p class="reviews-item__text">"When you hire an electric car from E-car not only will you be
                         helping to protect the environment, but you can also reduce your travel costs! - is a TRUE"</p>
                     <div class="reviews-item__person">
@@ -1462,7 +1482,8 @@
 
                     </div>
                 </div>
-                <div class="reviews-item">
+                <div class="reviews-item" data-aos="fade-up" data-aos-easing="ease" data-aos-delay="300"
+                    data-aos-once="true">
                     <p class="reviews-item__text">"Join the Electric revolution and book an Electric car with E-car !
                         You can be confident with an Electric Car autonomy of up to 400km, plus all the tools you need
                         to charge at home or by the roadside."</p>
@@ -1535,6 +1556,7 @@
         <img src="./img/top.svg" alt="top">
     </a>
 
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
     <script src="./js/jquery-ui.min.js"></script>

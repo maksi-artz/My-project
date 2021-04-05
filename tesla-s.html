@@ -12,6 +12,7 @@
         href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700;800&family=Nunito:wght@300;400;600;700;800&display=swap"
         rel="stylesheet">
     <link href="css/jquery-ui.min.css" rel="stylesheet">
+    <link href="css/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/_tesla-s.css">
@@ -27,8 +28,8 @@
 
 
             <div class="header__navbar" id="nav">
-                <a href="/" class="logo"><img src="./img/logo.svg" alt="e-car"></a>
-                <a href="/" class="logo--mobile"><img src="./img/logo-m.svg" alt="e-car"></a>
+                <a href="index.html" class="logo"><img src="./img/logo.svg" alt="e-car"></a>
+                <a href="index.html" class="logo--mobile"><img src="./img/logo-m.svg" alt="e-car"></a>
                 <nav class="menu">
                     <ul>
                         <li><a href="about-us.html" class="menu__item">About Us</a></li>
@@ -142,7 +143,8 @@
         <div class="container">
 
             <div class="property__text">
-                <p class="property__descr">
+                <p class="property__descr" data-aos="fade-right" data-aos-easing="ease-in" data-aos-delay="100"
+                    data-aos-duration="400">
                     The Tesla Model S comes with stunning performance, a feature-packed infotainment system, fine
                     comfort and handling, lots
                     of passenger space and a huge boot. And it's one of the easiest electric cars to live with, thanks
@@ -155,7 +157,8 @@
                     range between charges is
                     379 mile
                 </p>
-                <div class="property__main">
+                <div class="property__main" data-aos="fade-left" data-aos-easing="ease-in" data-aos-delay="100"
+                    data-aos-duration="500">
                     <div class="main__title">Performance</div>
                     <ul class="main__text">
                         <li>From 0 - 100 km/h <span>2.1 sec</span></li>
@@ -170,7 +173,8 @@
 
 
             <div class="property__other">
-                <div class="other__items">
+                <div class="other__items" data-aos="fade-up" data-aos-easing="ease-in" data-aos-delay="300"
+                    data-aos-duration="500">
                     <div class="item__title">Safety</div>
                     <ul class="item__text">
                         <li>ABS</li>
@@ -185,7 +189,8 @@
                     </ul>
                 </div>
 
-                <div class="other__items">
+                <div class="other__items" data-aos="fade-up" data-aos-easing="ease-in" data-aos-delay="500"
+                    data-aos-duration="400">
                     <div class="item__title">Driver Convenience</div>
                     <ul class="item__text">
                         <li>Heated front seat</li>
@@ -202,7 +207,8 @@
                     </ul>
                 </div>
 
-                <div class="other__items">
+                <div class="other__items" data-aos="fade-up" data-aos-easing="ease-in" data-aos-delay="700"
+                    data-aos-duration="400">
                     <div class="item__title">Interior Features</div>
                     <ul class="item__text">
                         <li>Front electric windows</li>
@@ -214,7 +220,8 @@
                     </ul>
                 </div>
 
-                <div class="other__items">
+                <div class="other__items" data-aos="fade-up" data-aos-easing="ease-in" data-aos-delay="900"
+                    data-aos-duration="400">
                     <div class="item__title">Entertainment</div>
                     <ul class="item__text">
                         <li>Digital radio</li>
@@ -230,7 +237,8 @@
         </div>
     </section>
 
-    <form action="#" class="search-form">
+    <form action="#" class="search-form" data-aos="flip-down" data-aos-easing="ease-in" data-aos-delay="300"
+        data-aos-duration="400">
 
         <fieldset class="search-form__content">
             <div class="search-form__item">
@@ -270,7 +278,8 @@
         </fieldset>
     </form>
 
-    <section class="catalog catalog-pt">
+    <section class="catalog catalog-pt" data-aos="fade-up" data-aos-easing="ease-in-out" data-aos-delay="600"
+        data-aos-duration="400">
         <div class="container ">
             <h2>You Might Also Like</h2>
             <div class="catalog__content catalog__content--active">
@@ -420,6 +429,12 @@
         </div>
     </footer>
 
+    <a href="#" class="to-top">
+        <img src="./img/top.svg" alt="top">
+    </a>
+
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
     <script src="./js/jquery-ui.min.js"></script>
