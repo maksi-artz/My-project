@@ -68,7 +68,6 @@ function handleNext() {
 
   var $radios = $('input[class*="slide-radio"]');
   var $activeRadio = $('input[class*="slide-radio"]:checked');
-
   var currentIndex = $activeRadio.index();
   var radiosLength = $radios.length;
 
@@ -102,3 +101,26 @@ window.addEventListener("scroll", () => {
     toTop.classList.remove("up");
   }
 })
+
+
+
+
+//Events on scroll 
+
+AOS.init({
+  offset: 120,
+  duration: 700,
+  easing: "ease-in-out",
+});
+
+
+AOS.init({
+  disable: 'mobile'
+});
+
+AOS.init({
+  disable: function () {
+    var maxWidth = 560;
+    return window.innerWidth < maxWidth;
+  }
+});

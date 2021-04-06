@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
     <title>e-car</title>
     <link rel="shortcut icon" href="img/favicon/favicon.ico" type="image/x-icon">
     <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -12,11 +12,10 @@
         href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700;800&family=Nunito:wght@300;400;600;700;800&display=swap"
         rel="stylesheet">
     <link href="css/jquery-ui.min.css" rel="stylesheet">
+    <link href="css/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/_contact-us.css">
-
-
 </head>
 
 <body>
@@ -24,8 +23,8 @@
         <div class="container">
 
             <div class="header__navbar" id="nav">
-                <a href="/" class="logo"><img src="./img/logo.svg" alt="e-car"></a>
-                <a href="/" class="logo--mobile"><img src="./img/logo-m.svg" alt="e-car"></a>
+                <a href="index.html" class="logo"><img src="./img/logo.svg" alt="e-car logo"></a>
+                <a href="index.html" class="logo--mobile"><img src="./img/logo-m.svg" alt="e-car logo"></a>
                 <nav class="menu">
                     <ul>
                         <li><a href="about-us.html" class="menu__item">About Us</a></li>
@@ -55,82 +54,63 @@
                 </nav>
 
                 <div class="overlay"></div>
-
-
-
             </div>
-
-
 
             <div class="contact-us__content">
 
                 <div class="contact-us__title">
-                    <h2>Get In Touch</h2>
+                    <h2 data-aos="fade-right" data-aos-easing="ease" data-aos-delay="200" data-aos-duration="800">Get In
+                        Touch</h2>
 
                     <div class="contact-us__contacts">
-                        <div class="contacts">
+                        <div class="contacts" data-aos="fade-up" data-aos-easing="ease" data-aos-delay="400"
+                            data-aos-duration="800">
                             <a href="tel:+7045550127"> <img src="./img/icon-phone.svg" alt="tel">(704) 555-0127</a>
                             <a href="mailto:e_car@example.com7"><img src="./img/icon-mail.svg" alt="mail">
                                 e_car@example.com</a>
-                            <div> <img src="./img/icon-map.svg"" alt=" addrese">4 Donnerville Hall, Donnerville
+                            <div> <img src="./img/icon-map.svg" alt="addrese">4 Donnerville Hall, Donnerville
                                 Drive, Admaston, TF5 0DF</div>
                         </div>
                     </div>
-
                 </div>
 
                 <div class="contact-us__form">
-                    <form action="#">
+                    <form action="#" data-aos="fade-left" data-aos-easing="ease" data-aos-delay="300"
+                        data-aos-duration="800">
                         <div class="form__wrap">
                             <div class="form__item">
                                 <label for="firstName">First Name</label>
-                                <input type="text" name="firstName">
+                                <input type="text" name="firstName" id="firstName">
                             </div>
                             <div class="form__item">
                                 <label for="lastName">Last Name</label>
-                                <input type="text" name="lastName">
+                                <input type="text" name="lastName" id="lastName">
                             </div>
-
-
                         </div>
 
                         <div class="form__item">
                             <label for="email">E-mail</label>
-                            <input type="email" name="email">
+                            <input type="email" name="email" id="email">
                         </div>
 
                         <div class="form__item">
-                            <label for="email">Your Message</label>
-                            <textarea name="message" maxlength='325' wrap="soft"></textarea>
+                            <label for="message">Your Message</label>
+                            <textarea name="message" id="message" maxlength='325' wrap="soft"></textarea>
                         </div>
 
-
-
-                        <input type="submit" value="send" class="primary__btn">
+                        <button type="submit" class="primary__btn">Send</button>
 
                     </form>
-
                 </div>
-
-
-
-
             </div>
-
-
-
-        </div>
-
         </div>
     </header>
 
-
-
-    <footer class="footer">
+    <footer class="footer" data-aos="fade-up" data-aos-easing="ease" data-aos-delay="100" data-aos-duration="300">
         <div class="container">
 
             <div class="footer__nav">
-                <a href="/" class="logo--footer"><img src="./img/logo-light.svg" alt="e-car"></a>
+                <a href="/" class="logo--footer"><img src="./img/logo-light.svg" alt="e-car logo"></a>
                 <ul class="footer__sm">
                     <li><a href="https://www.facebook.com/" target="_blank"><img src="./img/facebook.svg"
                                 alt="facebook"></a></li>
@@ -149,9 +129,7 @@
                     <div>4 Donnerville Hall, Donnerville <br> Drive, Admaston, TF5 0DF</div>
                 </div>
             </div>
-
             <hr>
-
             <div class="footer__items">
                 <div class="item__rights">
                     © 2021 e-car. All Rights Reserved
@@ -165,6 +143,11 @@
         </div>
     </footer>
 
+    <a href="#" class="to-top">
+        <img src="./img/top.svg" alt="top">
+    </a>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
     <script src="./js/jquery-ui.min.js"></script>
