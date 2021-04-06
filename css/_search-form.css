@@ -43,7 +43,7 @@
 .ui-widget-content {
   border: none;
   border-radius: 0 0px 8px 8px;
-  box-shadow: 0px 16px 20px rgba(60, 76, 165, 0.12);
+  box-shadow: 0 16px 20px rgba(60, 76, 165, 0.12);
 }
 
 .ui-button {

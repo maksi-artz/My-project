@@ -68,7 +68,6 @@ function handleNext() {
 
   var $radios = $('input[class*="slide-radio"]');
   var $activeRadio = $('input[class*="slide-radio"]:checked');
-
   var currentIndex = $activeRadio.index();
   var radiosLength = $radios.length;
 
@@ -109,10 +108,9 @@ window.addEventListener("scroll", () => {
 //Events on scroll 
 
 AOS.init({
-  offset: 160,
+  offset: 120,
   duration: 700,
   easing: "ease-in-out",
-
 });
 
 

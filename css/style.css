@@ -10,7 +10,7 @@
 
 :root {
   --green-main: #6ce9ad;
-  --blue-main: #5b74f9;
+  --blue-main: #4a64ea;
   --blue-hover: #324ad4;
   --blue-light: #a2adec;
   --dark-main: #001e44;
@@ -110,10 +110,10 @@
 
 @media (max-width: 1023px) {
   h1 {
-    font-size: 54px;
+    font-size: 3.375rem;
   }
   h2 {
-    font-size: 42px;
+    font-size: 2.625rem;
   }
 
   .station__map iframe {
